@@ -19,7 +19,7 @@ function translateArrayToTree(list) {
 
 
 
-    
+
 }
 // 转换成
 var translateData = [
@@ -47,4 +47,4 @@ var translateData = [
       }, ],
   },
 ];
-console.log(JSON.stringify(translateArrayToTree(data, null, 2)));
+console.log(JSON.stringify(translateArrayToTree(data), null, 2));
